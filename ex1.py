@@ -1,9 +1,14 @@
-class Settings:
+
     
-    def __init__(self):
-        """Initialize the game's settings"""
-        #Screen settings
-        self.screen_width = 1200
-        self.screen_height = 800
-        
-        self.bg_color = (0, 0, 230)
+def print_numbers():
+    """Print the first 10 numbers using a while loop"""
+    
+    numbers = range(1,10)
+    while True:
+        for num in numbers:
+            print(num)
+        if num > 10:
+            break
+            
+
+print_numbers()

@@ -1,11 +1,10 @@
-def atm(balance):
+m=1
 
-    balance+=5
+y=6
 
-    return balance*2
+x=4
 
-new_value=int(input("What is your balance: "))
+p=2
 
-mybalance = atm(new_value)
-
-print(mybalance)
+result = m + x // y % p
+print(result)
